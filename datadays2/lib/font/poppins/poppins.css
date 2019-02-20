@@ -14,20 +14,14 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('source-sans-pro-semibold.eot');
-    src: url('source-sans-pro-semibold.eot?#iefix') format('embedded-opentype'),
-         url('source-sans-pro-semibold.woff') format('woff'),
-         url('source-sans-pro-semibold.ttf') format('truetype');
+    src: url('Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('source-sans-pro-semibolditalic.eot');
-    src: url('source-sans-pro-semibolditalic.eot?#iefix') format('embedded-opentype'),
-         url('source-sans-pro-semibolditalic.woff') format('woff'),
-         url('source-sans-pro-semibolditalic.ttf') format('truetype');
+    src: url('Poppins-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
