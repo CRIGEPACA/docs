@@ -1,1 +1,1 @@
-# DATADAYS#2 utilise reveal.js
+# WIDGET-DATASUD utilise reveal.js
