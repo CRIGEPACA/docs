@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="Framework">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>DATADAYS#4 - Atelier de publication pour DATASUD</title>
+
+		<meta name="description" content="Support de l'atelier pour publier des données sur DATASUD">
+		<meta name="author" content="CRIGE Provence-Alpes-Côte d'Azur">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-transition="none">
+					<h1>DATADAYS#4</h1>
+					<h4>Atelier de publication pour DATASUD</h4>
+					<img src="img/crige-and-datasud.png" alt="CRIGE & Datasud" style="width:40%;height:40%;">
+					<p>
+						<small>Proposé par le <a href="http://www.crige-paca.org">CRIGE Provence-Alpes-Côte d'Azur</a> le 25 avril 2019</small>
+						<small>Disponible sur <a href="https://github.com/CRIGEPACA/docs/tree/master/datadays4">le git du CRIGE</a></small>
+					</p>
+				</section>
+				<section data-transition="none">
+					<section data-transition="none">
+						<h2>Rappel du projet </h2>
+						<p>DATASUD est un projet piloté par le CRIGE Provence-Alpes-Côte d’Azur et la Région SUD Provence Alpes-Côte d’Azur, avec la participation financière de l’État et du Conseil départemental des Hautes-Alpes.</p>
+						<img src="img/logo-region-sud.jpg" alt="logo_regionsud" style="width:40%;height:40%;vertical-align:middle;">
+						<img src="img/logo_sgar-paca.png" alt="logo_sgar" style="width:10%;height:10%;vertical-align:middle;">
+						<img src="img/logo-departement-05-hautes-alpes.png" alt="logo_cd05" style="width:20%;height:20%;vertical-align:middle;">
+					</section>
+					<section data-transition="none">
+						<p>Le projet mutualise une infrastructure de données à l’échelle régionale, rendues visibles à travers un <b>catalogue de données</b> à l'échelon régional.</p>
+						<p>Le catalogue de données diffuse des <em>données ouvertes, géographiques et intelligentes</em> au service du développement des territoires et de l’innovation numérique</p>
+						<p>73 organisations diffusent déjà des données sur DATASUD. De nouvelles fonctionnalités et des données supplémentaires vont être intégrées au fil de l'eau 2019.</p>
+					</section>
+					<section data-transition="none">
+						<h2>Partenariat CRIGE Provence-Alpes-Côte d'Azur et Région SUD</h2>
+						<table>
+								<tbody>
+									<tr>
+										<td>Groupement de commande</td>
+										<td>CRIGE/Région SUD</td>
+									</tr>
+									<tr>
+										<td>Forme du Marché</td>
+										<td>Accord-cadre monoattributaire</td>
+									</tr>
+									<tr>
+										<td>Financement</td>
+										<td>50% CRIGE, 50% Région SUD</td>
+									</tr>
+									<tr>
+										<td>Durée</td>
+										<td>Fin 2016 à fin 2019</td>
+									</tr>
+								</tbody>
+							</table>
+					</section>
+					<section data-transition="none">
+						<h2>Prestataire :</h2>
+						<img src="img/logo-neogeo.png" alt="logo_neogeo" style="width:40%;height:40%;">
+						<h5>Sous-traitants</h5>
+						<img src="img/logo_jaguar_network.jpg" alt="logo_jn" style="width:150px;height:150px;vertical-align:middle;">
+						<img src="img/logo-quai13-trspt_171.png" alt="logo_jn" style="width:170px;height:50px;vertical-align:middle;">
+						<img src="img/logo_small-spatialys.png" alt="logo_jn" style="width:80px;height:103px;vertical-align:middle;">
+						<h5>Le code est entièrement open-source !</h5>
+					</section>
+					<section data-transition="none">
+							<h2>Roadmap</h2>
+							<img src="img/roadmap.png" alt="roadmap" style="width:100%;height:100%;vertical-align:middle;">
+						</section>
+				</section>
+				<section data-transition="none">
+					<section data-transition="none">
+						<h2>À qui s'adresse DATASUD ?</h2>
+						<p>Aux producteurs de données en région, pour référencer et diffuser leur patrimoine de données</p>
+						<p>Aux réutilisateurs de données pour développer, aménager, protéger le territoire</p>
+						<p>Aux entreprises et start-up à la recherche de données</p>
+						<p>Aux citoyens et aux acteurs de la transparence démocratique</p>
+					</section>
+					<section data-transition="none">
+						<h2>Pourquoi publier sur DATASUD ?</h2>
+							<p>Participer à une initiative régionale, "point d'entrée unique" de la donnée en région</p>
+							<p>Mutualiser une infrastructure pour diminuer les coûts de diffusion de l'information</p>
+							<p>Publier des données dans des formats ouverts et réutilisables</p>
+							<p>Souscrire aux exigences règlementaires (Loi République Numérique, INSPIRE)</p>
+							<p>Faire remonter les données au niveau national : data.gouv.fr, geo.data.gouv.fr, geocatalogue.fr,...</p>
+					</section>
+					<section data-transition="none">
+						<h2>Que publier sur DATASUD ?</h2>
+						<p>Les données produites par votre organisation et diffusables (90% des données d'administration publique)</p>
+						<p>Des données ouvertes (Open Data) mais pas seulement (données sensibles)</p>
+						<p>Des données au format ouvert : CSV, JSON, GEOJSON, SHP, JPEG2000, GeoTIFF</p>
+					</section>
+					<section data-transition="none">
+						<h3>Qui publie ou publiera sur DATASUD ?</h3>
+						<a href="https://trouver.datasud.fr/organization?view_mode=list"><img src="img/screenshot-organisations.png" alt="datasud-orga" style="width:50%;height:50%;vertical-align:middle;"></a>
+						<small>
+						<p>Et demain, par moissonnage, la DREAL PACA (GEOIDE), la Métropole AMP, le SMAVD</p>
+						</small>
+						</section>
+					<section data-transition="none">
+						<h3>Tour de table des données des participants</h3>
+					</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<h2>Publier en <a href="#/3/1">PRODUCTION</a> ou en <a href="#/3/2">RECETTE</a>?</h2>
+						</section>
+						<section data-transition="none">
+							<h3>Publier sur la PRODUCTION</h3>
+							<p><q>Quand vous voulez créer une organisation, publier un jeu de données consolidées, diffuser directement au plus grand nombre </q></p>
+							<a href="https://trouver.datasud.fr/dataset"><img src="img/screenshot-datasud.png" alt="datasud-prod" style="width:100%;height:100%;vertical-align:middle;"></a>
+						</section>
+						<section data-transition="none">
+							<h3>Publier sur la RECETTE</h3>
+							<p><q>Quand vous voulez tester l'infrastructure, publier des données en brouillon, tester les services associés</q></p>
+							<a href="https://trouver-rec.datasud.fr/dataset"><img src="img/screenshot-datasud-rec.png" alt="datasud-rec" style="width:100%;height:100%;vertical-align:middle;"></a>
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<img src="img/1.png" alt="1" style="width:20%;height:20%;vertical-align:middle;">
+							<h2>S'INSCRIRE</h2>
+						</section>
+						<section data-transition="none">
+							<h3>CREER UNE ORGANISATION</h3>
+							<p>Au moment de l'inscription ou dans l'Espace Utilisateur, onglet "Organisations"</p>
+						</section>
+						<section data-transition="none">
+							<h3>EDITER UNE ORGANISATION</h3>
+							<p>Dans l'Espace Utilisateur, onglet "Organisation", "Editer une organisation"</p>
+							<p>Attention, il faut être REFERENT pour éditer une organisation</p>
+							</section>
+						<section data-transition="none">
+							<h3>CREER UN TERRITOIRE DE COMPETENCES</h3>
+							<p>Le territoire de compétences permet :</p>
+							<ul>
+								<li>d'améliorer la recherche spatiale des utilisateurs (référencement)</li>
+								<li>[CRIGE] limiter l'extraction d'une donnée sur un territoire de compétences</li>
+								<li>[CRIGE] d'autoriser le téléchargement de données sensibles (MAJIC III)</li>
+							</ul>
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<img src="img/2.png" alt="2" style="width:20%;height:20%;vertical-align:middle;">
+							<h2>PUBLIER UN JEU DE DONNEES</h2>
+							<p>Au minimum 2 étapes : </p>
+							<ol>
+								<li>Publier une fiche de métadonnées (dataset)</li>
+								<li>Publier la donnée (ressource)</li>
+								<li>(optionnel) Publier une métadonnée INSPIRE</li>
+							</ol>
+						</section>
+						<section data-transition="none">
+							<h3>Comment rédiger une fiche de métadonnées dans DATASUD ?</h3>
+							<a href="https://datasud.readthedocs.io/fr/latest/contributeurs.html#publier-un-jeu-de-donnees">https://datasud.readthedocs.io/fr/latest/contributeurs.html#publier-un-jeu-de-donnees</a>
+						</section>
+						<section data-transition="none">
+							<h3>Comment publier une donnée dans DATASUD ?</h3>
+							<a href="https://datasud.readthedocs.io/fr/latest/contributeurs.html#etape-n2-publier-une-ressource">https://datasud.readthedocs.io/fr/latest/contributeurs.html#etape-n2-publier-une-ressource</a>
+						</section>
+						<section data-transition="none">
+								<h3>Qu'est-ce qu'on ne publie pas ? </h3>
+								<h5>(ce qu'on ne considére pas comme donnée brute)</h5>
+								<small>
+								<ul>
+									<li>Des jeux de données contenant uniquement des fichiers sous la forme de fichiers PDF, Word,...qui constituent certes une information mais pas une donnée facilement réutilisable</li>
+									<li>Exemple : on ne publie le PDF d'une délibération...par contre, on peut publier la liste des délibérations en fichier CSV avec un lien de téléchargement</li>
+									<li>Des liens vers page web qui ne contiennent pas de données brutes</li>
+								</ul>
+								<p>Plus de règles éditoriales <a href="https://datasud.readthedocs.io/fr/latest/regles_editoriales.html"> ici</a></p>
+								</small>
+
+							</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<img src="img/3.png" alt="3" style="width:20%;height:20%;vertical-align:middle;">
+							<h2>VERIFIER SES PUBLICATIONS</h2>
+							<p></p>
+							<ol>
+								<li>Retourner sur votre fiche de métadonnées</li>
+								<li>Télécharger votre jeu de données</li>
+								<li>Prévisualiser votre jeu de données</li>
+							</ol>
+						</section>
+						<section data-transition="none">
+								<p>Vous pouvez aussi exporter votre catalogue de donnés en CSV</p>
+								<p>ainsi que tous vos résultats de recherche de données</p>
+						</section>
+						<section data-background-video="img/export.mp4" data-background-color="#000000">
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<img src="img/4.png" alt="4" style="width:20%;height:20%;vertical-align:middle;">
+							<h2>UTILISER LES FLUX OGC DATASUD</h2>
+							<p>La logique de DATASUD = un service OGC par ORGANISATION. Exemple : une URL pour l'ARPE, une URL pour SUD THD, etc.</p>
+							<p>Les URLs se trouvent dans l'Espace Utilisateur, onglet "Organisation", sur la description de chaque Organisation</p>
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<img src="img/5.png" alt="5" style="width:20%;height:20%;vertical-align:middle;">
+							<h2>ET POUR INSPIRE ?</h2>
+							<p>Rendez-vous dans l'Espace Utilisateur, sélectionnez un dataset, éditez-le et sélectionnez l'option "Editer une métadonnée INSPIRE"</p>
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<img src="img/6.png" alt="6" style="width:20%;height:20%;vertical-align:middle;">
+							<h2>POUR LES PARTENAIRES DU CRIGE </h2>
+							<small><p>Services à valeur ajoutée supplémentaire sur l'infrastructure : </p>
+							<ul>
+								<li>Support de premier niveau auprès des utilisateurs : hotline, support technique, assistance</li>
+								<li>(à venir) Extracteur de données géographiques raster, vecteur</li>
+								<li>Accès aux données sensibles sous convention régionale</li>
+								<li>Gestionnaire de style</li>
+								<li>(à venir) Visualisation de données et utilitaire de publication de cartes</li>
+							</ul>
+							</small>
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<h2>SERVICES CRIGE - EXTRACTEUR</h2>
+						</section>
+						<section data-transition="none">
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<h2>SERVICES CRIGE - GESTIONNAIRE DE STYLE</h2>
+						</section>
+						<section data-transition="none">
+							<h2></h2>
+						</section>
+				</section>
+				<section data-transition="none">
+						<section data-transition="none">
+							<h2>AVOIR SON CATALOGUE EN MARQUE BLANCHE</h2>
+								<small><p>Exemples : </p>
+								<ul>
+									<li>sur le portail du PNR Provence-Alpes-Côte d’Azur : <a href="http://geo.pnrpaca.org/geoservices/catalogue-de-donnees/">http://geo.pnrpaca.org/geoservices/catalogue-de-donnees/</a></li>
+									<li>sur une page html simple, CRIGE : <a href="http://beta.crige-paca.org/beta/widget/crige/crige.html">http://beta.crige-paca.org/beta/widget/crige/crige.html</a></li>
+									<li>Département des Hautes-Alpes : <a href="http://beta.crige-paca.org/beta/widget/hautes_alpes/index.html">http://beta.crige-paca.org/beta/widget/hautes_alpes/index.html</a></li>
+									<li>Métropole AMP : <a href="http://beta.crige-paca.org/beta/widget/mamp/index.html">http://beta.crige-paca.org/beta/widget/mamp/index.html</a></li>
+								</ul></small>
+						</section>
+				</section>
+				<section data-transition="none">
+					<section data-transition="none">
+							<!-- <img src="img/4.png" alt="4" style="width:20%;height:20%;vertical-align:middle;"> -->
+							<h2>DATASUD et portail CRIGE</h2>
+					</section>
+					<section data-transition="none">
+						<h2>Comment s'articule les deux outils ?</h2>
+						<p>
+							Le portail CRIGE est le volet "animation" du réseau géomatique régionale et DATASUD est son volet "Guichet" de données. Les deux sont des outils qui reposent sur la même infrastructure de données.
+						</p>
+					</section>
+					<section data-transition="none">
+							<img src="img/datasud-projet-initial.png" alt="project" style="width:100%;height:100%;vertical-align:middle;">
+					</section>
+					<section data-transition="none">
+							<a href="https://crigepaca.quai13.fr/"><img src="img/portail-crige.png" alt="portail-crige" style="width:100%;height:100%;vertical-align:middle;"></a>
+					</section>
+			</section>
+
+				<section data-transition="none">
+					<section data-transition="none">
+							<!-- <img src="img/5.png" alt="5" style="width:20%;height:20%;vertical-align:middle;"> -->
+							<h2>DATASUD, la	communauté</h2>
+					</section>
+					<section data-transition="none">
+							<h2>Prochains événements</h2>
+							<p>
+								<ul>
+									<li>Club Utilisateurs #2, le 4 avril de 10h à 12h30, au Conseil Régional à Marseille</li>
+								</ul>
+							</p>
+					</section>
+					<section data-transition="none">
+						<h2>Faire partie de la communauté DATASUD ? (1)</h2>
+						<p>Consultez le portail du CRIGE, vous pourrez vous inscrire aux différents évènements (ateliers,barcamp, comité technique) !</p>
+					</section>
+					<section data-transition="none">
+						<h2>Faire partie de la communauté DATASUD ? (2)</h2>
+							<ul>
+								<li>Suivez-nous sur Twitter <a href="https://twitter.com/crigepaca">@CRIGEPACA</a> (actualité de la plateforme, annonce des nouveaux jeux de données)</li>
+							</ul>
+					</section>
+					<section data-transition="none">
+							<h2>Contactez l'équipe</h2>
+								<ul>
+									<li>L’équipe CRIGE de la plateforme DATASUD est joignable par téléphone : 04 42 90 71 22</li>
+									<li>Elle répond à vos questions par email : <a href="mailto:admin.datasud@crige-paca.org">admin.datasud@crige-paca.org</a></li>
+									<li>Pour toute question de support technique sur la donnée géolocalisée : <a href="mailto:support@crige-paca.org">support@crige-paca.org</a></li>
+									<li>Sinon, une adresse générique de contact de DATASUD est disponible pour le CRIGE et la Région SUD : <a href="mailto:contact@datasud.fr">contact@datasud.fr</a></li>
+								</ul>
+					</section>
+				</section>
+				</section>
+				
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
